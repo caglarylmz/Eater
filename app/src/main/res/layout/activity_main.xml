@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.oriontech.eater.MainActivity">
+
+    <TextView
+        android:id="@+id/tvScore"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Score : 0"
+        android:textSize="18sp"
+        android:paddingLeft="10dp"
+        android:gravity="center_vertical"/>
+
+    <FrameLayout
+        android:id="@+id/flFrame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/tvStart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tap to Start"
+            android:textSize="30sp"
+            android:layout_gravity="center"/>
+
+        <ImageView
+            android:id="@+id/ivApple"
+            android:layout_width="33dp"
+            android:layout_height="33dp"
+            android:src="@drawable/apple"/>
+        <ImageView
+            android:id="@+id/ivOrange"
+            android:layout_width="33dp"
+            android:layout_height="33dp"
+            android:src="@drawable/orange"/>
+        <ImageView
+            android:id="@+id/ivApricot"
+            android:layout_width="33dp"
+            android:layout_height="33dp"
+            android:src="@drawable/apricot"/>
+        <ImageView
+            android:id="@+id/ivBanana"
+            android:layout_width="33dp"
+            android:layout_height="33dp"
+            android:src="@drawable/banana"/>
+        <ImageView
+            android:id="@+id/ivPapaya"
+            android:layout_width="33dp"
+            android:layout_height="33dp"
+            android:src="@drawable/papaya"/>
+        <ImageView
+            android:id="@+id/ivPeach"
+            android:layout_width="33dp"
+            android:layout_height="33dp"
+            android:src="@drawable/peach"/>
+        <ImageView
+            android:id="@+id/ivPomegranetes"
+            android:layout_width="33dp"
+            android:layout_height="33dp"
+            android:src="@drawable/pomegranetes"/>
+        <ImageView
+            android:id="@+id/ivCherry"
+            android:layout_width="33dp"
+            android:layout_height="33dp"
+            android:src="@drawable/cherry"/>
+        <ImageView
+            android:id="@+id/ivManderin"
+            android:layout_width="33dp"
+            android:layout_height="33dp"
+            android:src="@drawable/manderin"/>
+        <ImageView
+            android:id="@+id/ivAnahtar"
+            android:layout_width="33dp"
+            android:layout_height="33dp"
+            android:src="@drawable/anahtar"/>
+        <ImageView
+            android:id="@+id/ivEater"
+            android:layout_width="66dp"
+            android:layout_height="66dp"
+            android:src="@drawable/pacman1"
+            android:layout_gravity="center_vertical"/>
+
+    </FrameLayout>
+
+</LinearLayout>
